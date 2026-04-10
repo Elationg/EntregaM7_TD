@@ -9,7 +9,7 @@ Portafolio técnico personal desarrollado como entregable del módulo _Desarroll
 ## Vista previa
 
 > Una vez activado GitHub Pages, el portafolio estará disponible en:
-> **`https://elationg.github.io/<nombre-del-repo>/`**
+> **`https://elationg.github.io/EntregaM7_TD`**
 
 ---
 
@@ -55,7 +55,7 @@ Portafolio técnico personal desarrollado como entregable del módulo _Desarroll
 
 ```
 M7/
-├── portfolio.html          # Portafolio completo (single-page)
+├── index.html          # Portafolio completo (single-page)
 ├── css/
 │   └── style.css           # Estilos (extraídos por el IDE)
 ├── .github/
@@ -70,7 +70,7 @@ M7/
 
 ### Foto de perfil
 
-En [portfolio.html](portfolio.html), busca el elemento `id="profile-avatar"` (aprox. línea 65):
+En [index.html](index.html), busca el elemento `id="profile-avatar"` (aprox. línea 65):
 
 ```html
 <!-- Opción A — imagen local -->

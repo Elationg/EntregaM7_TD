@@ -40,12 +40,12 @@ jobs:
         uses: actions/configure-pages@v5
 
       # El portafolio es HTML/CSS estático — no necesita compilación.
-      # Este paso empaqueta toda la carpeta raíz como artefacto de Pages.
+      # GitHub Pages sirve index.html por defecto desde la raíz.
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Sube el contenido de la raíz del repositorio.
-          # Si mueves portfolio.html a una subcarpeta, actualiza esta ruta.
+          # index.html será servido automáticamente como página principal.
           path: "."
 
   # ── Job 2: Deploy (publica en GitHub Pages) ───────────────────────────────
